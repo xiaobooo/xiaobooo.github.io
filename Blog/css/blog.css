@@ -1,0 +1,43 @@
+
+body
+{
+	background-color:#EDEBEB;
+}
+.blog-cell
+{
+	top: 100px;
+	margin: 0 auto;
+	background-color: #60D842;
+	height: 400px;
+	width: 888px;
+	position: relative;
+}
+.blog-header
+{
+	background-color: #FA1737;
+	height: 300px;
+	width: 888px;
+	position: relative;
+}
+.blog-header h3
+{
+	top: 200px;
+	left: 25px;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+}
+.blog-footer
+{
+	background-color: #E6F427;
+	height: 100px;
+	width: 888px;
+	position: relative;
+}
+.portrait
+{
+	align: center;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+}
