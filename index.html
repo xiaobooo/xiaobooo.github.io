@@ -1,73 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=utf-8" />
-    <!--手机屏幕兼容预处理-->
-    <meta name="viewport" content="width-device,user-scalable=no">
-    <title>My Web Game-2048</title>
-    <link rel="stylesheet" type ="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/cssReset.css"/>
+	<meta charset="UTF-8">
+	<title>XiaoBooo's Blog</title>
+	<link rel="icon" type="image/x-icon" href="img/title.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
-<body background="img/img1.jpg" width:100%; height:100%;>
+<body>
+	<div class="blog-cell" onclick="window.open('html/blog-4-26.html')">
+		<div class="blog-header" style="background-image: url(img/blog1.jpg);">
+			<h3>Blog font style test</h3>
+		</div>
+		<div class="blog-footer">
+			<img class="portrait" src="img/xiaobooo.bmp">
+			<p class="myname">XiaoBooo</p>
+			<p class="mydate">4月26,2018</p>
+			<p class="mylabel">Java</p>
+		</div>
+	</div>
+	
+	<div class="blog-cell" onclick="window.open('html/blog-4-26.html')">
+		<div class="blog-header" style="background-image: url(img/blog2.1.jpg);">
+			<h3>Blog font style test</h3>
+		</div>
+		<div class="blog-footer">
+			<img class="portrait" src="img/xiaobooo.bmp">
+			<p class="myname">XiaoBooo</p>
+			<p class="mydate">4月26,2018</p>
+			<p class="mylabel">Java</p>
+		</div>
+	</div>
 
-<div class="header">
-	<button class="btn" type="button">注册</button> 
-	<button class="btn" type="button"><a href="html/login.html">登录</a></button>
-    <div id="button-cell">
-		<div class="button-cell">2048</div>
-		<div class="button-cell">4*4</div>
-    </div>
-    <a href="javascript:newgame();" id="newgame"  onclick="newgame()">重  新  开  始</a>
-    <div id="score-cell">
-		<div class="score-cell">分数</div>
-		<div class="button-cell"><span id="score">0</span></div>      
-		<!--  突显分数字体此处class并未出错 -->
-    </div>
-    <div id="hscore-cell">
-		<div class="hscore-cell">最高分数</div>
-		<div class="button-cell"><span id="score">0</span></div>
-    </div>
-    <input class="help" type="button" name="" onclick="help()" />
-    <input class="music" type="button" name="" onclick="openMusic()" />
-<!--     <input class="share" type="button" name="" onclick="share()" /> -->
-</div>
+	<div class="blog-cell" onclick="window.open('html/blog-4-26.html')">
+		<div class="blog-header" style="background-image: url(img/blog2.1.jpg);">
+			<h3>Blog font style test</h3>
+		</div>
+		<div class="blog-footer">
+			<img class="portrait" src="img/xiaobooo.bmp">
+			<p class="myname">XiaoBooo</p>
+			<p class="mydate">4月26,2018</p>
+			<p class="mylabel">Java</p>
+		</div>
+	</div>
 
-<div id="grid-container">
-    <div class="grid-cell" id="grid-cell-0-0"></div>
-    <div class="grid-cell" id="grid-cell-0-1"></div>
-    <div class="grid-cell" id="grid-cell-0-2"></div>
-    <div class="grid-cell" id="grid-cell-0-3"></div>
 
-    <div class="grid-cell" id="grid-cell-1-0"></div>
-    <div class="grid-cell" id="grid-cell-1-1"></div>
-    <div class="grid-cell" id="grid-cell-1-2"></div>
-    <div class="grid-cell" id="grid-cell-1-3"></div>
-
-    <div class="grid-cell" id="grid-cell-2-0"></div>
-    <div class="grid-cell" id="grid-cell-2-1"></div>
-    <div class="grid-cell" id="grid-cell-2-2"></div>
-    <div class="grid-cell" id="grid-cell-2-3"></div>
-
-    <div class="grid-cell" id="grid-cell-3-0"></div>
-    <div class="grid-cell" id="grid-cell-3-1"></div>
-    <div class="grid-cell" id="grid-cell-3-2"></div>
-    <div class="grid-cell" id="grid-cell-3-3"></div>
-</div>
-<!-- 分享标签 -->
-<!-- JiaThis Button BEGIN -->
-<div class="jiathis_style_32x32">
-	<a class="jiathis_button_qzone"></a>
-	<a class="jiathis_button_tsina"></a>
-	<a class="jiathis_button_cqq"></a>
-	<a class="jiathis_button_weixin"></a>
-	<a class="jiathis_button_renren"></a>
-	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="js/support.js"></script>
-<script type="text/javascript" src="js/show.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
