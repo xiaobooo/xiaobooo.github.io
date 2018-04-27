@@ -21,6 +21,10 @@ body
 	background:url(../img/blog1.jpg); 
 	background-size: cover;
 }
+.blog-header:hover
+{
+	cursor: pointer;
+}
 .blog-header h3
 {
 	top: 200px;

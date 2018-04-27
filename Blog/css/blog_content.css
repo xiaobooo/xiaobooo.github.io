@@ -1,0 +1,21 @@
+.content-cell
+{
+        top: 100px;
+        margin: 0 auto;
+
+        height:auto;
+        width: 888px;
+        min-height:300px;
+        max-height:900px;
+
+        z-index:9103;
+        position: relative;
+}
+.ctitle
+{
+    margin: 15px;
+}
+p
+{
+    line-height: 38px;
+}
