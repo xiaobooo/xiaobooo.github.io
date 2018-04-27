@@ -5,20 +5,25 @@ body
 }
 .blog-cell
 {
-	top: 100px;
-	margin: 0 auto;
-	background-color: #60D842;
-	height: 400px;
-	width: 888px;
-	position: relative;
+		top: 100px;
+        margin: 0 auto;
+		padding: 20px;
+
+        height:auto;
+        width: 888px;
+        min-height:300px;
+        max-height:900px;
+
+        z-index:9103;
+        position: relative;
 }
+
 .blog-header
 {
 	background-color: #FA1737;
 	height: 300px;
 	width: 888px;
 	position: relative;
-	background:url(../img/blog1.jpg); 
 	background-size: cover;
 }
 .blog-header:hover
