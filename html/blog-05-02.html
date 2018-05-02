@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blog  Demo</title>
+	<link rel="icon" type="image/x-icon" href="../img/title.ico">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/blog_content.css">
+	<link rel="stylesheet" type="text/css" href="../css/blog.css">
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+	<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+	<script src="/follow.js" type="text/javascript"></script>
+	<style type="text/css">
+	/*Fontawesome Iconfont*/
+	@import url(http://libs.useso.com/js/font-awesome/4.0.1/css/font-awesome.min.css);
+	@import url(http://fonts.useso.com/css?family=Montserrat);
+		* {margin: 0; padding: 0;}
+		li {list-style-type: none;}
+
+		.grid {display: block;float: left;width: 980px;margin: 0 auto;}
+		.grid > li { width: 285px; height: 500px; overflow: hidden; float: left; margin: 20px 0 20px 30px; position: relative; }
+		.grid > li:hover {box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);}
+
+		.grid>li section {position: relative; transition: all 0.25s; width: 100%;}
+		.grid>li h2 {font: bold 14px montserrat; color: #fff; text-transform: uppercase; position: absolute; text-align: center; width: 60%; left: 20%; top: 100px; padding: 10px 0; border: 2px solid white; border-radius: 4px;}
+
+		.sidenav { position: absolute; top: 0; left: 0; bottom: 0; background: linear-gradient(rgba(50,60,60, 1), rgba(50,60,60, 0.7)); width: 50px; transition: all 0.25s; overflow: hidden; padding-top: 100px;}
+		.sidenav li { _overflow: hidden; width: 150px; }
+		.sidenav a { text-decoration: none; color: #eee;  display: block; line-height: 48px;  }
+		.sidenav span {display: block;}
+		.sidenav b { padding-left 10px; display: block; color: white; font-family: Montserrat; font-size: 12px; line-height: 4; opacity: 0; }
+		.sidenav a i { display: block; float: left; font-size: 16px; line-height: 48px; width: 50px; text-align: center; }
+
+		/*All instances*/
+		.grid>li:hover .sidenav {width: 150px;}
+		.grid>li:hover section {margin-left: 150px;}
+		.grid>li:hover b {opacity: 1;}
+
+
+		/*Two*/
+		.two li {overflow: visible;}
+		.two a {transform: translateY(100px); opacity: 0;}
+		.two:hover a {transform: translateY(0px); transition: all 0.4s; opacity: 1;}
+
+		/*Three*/
+		.three li {overflow: visible;}
+		.three a {transform: translateY(100px) translateX(100px); opacity: 0;}
+		.three:hover a {transform: translateY(0px) translateX(0); transition: all 0.4s; opacity: 1;}
+
+		/*Four*/
+		.four li {overflow: visible; width: 150px;}
+		.four li a i {opacity: 0; transition: all 0.4s;}
+		.four li:nth-child(odd) b {transform: translateY(100px) translateX(100px); opacity: 0;}
+		.four li:nth-child(even) b {transform: translateY(100px) translateX(-100px); opacity: 0;}
+		.four:hover li b {transform: translateY(0px) translateX(0); transition: all .4s; opacity: 1;}
+		.four:hover li a i {opacity: 1;}
+		
+		.sidenav li:nth-child(1) b, .sidenav li:nth-child(1) a, .sidenav li:nth-child(1) i {transition-delay: .08s;}
+		.sidenav li:nth-child(2) b, .sidenav li:nth-child(2) a, .sidenav li:nth-child(2) i {transition-delay: .16s;}
+		.sidenav li:nth-child(3) b, .sidenav li:nth-child(3) a, .sidenav li:nth-child(3) i {transition-delay: .24s;}
+		.sidenav li:nth-child(4) b, .sidenav li:nth-child(4) a, .sidenav li:nth-child(4) i {transition-delay: .32s;}
+		.sidenav li:nth-child(5) b, .sidenav li:nth-child(5) a, .sidenav li:nth-child(5) i {transition-delay: .40s;}
+		.sidenav li:nth-child(6) b, .sidenav li:nth-child(6) a, .sidenav li:nth-child(6) i {transition-delay: .48s;}
+	</style>
+</head>
+<body>
+	<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div>
+		</header>
+		<div class="htmleaf-content bgcolor-8">
+		<ul class="grid">
+			<li class="three">
+				<ul class="sidenav">
+					<li><a><i class="fa fa-check"></i><b>Tasks</b></a></li>
+					<li><a><i class="fa fa-inbox"></i><b>Messages</b></a></li>
+					<li><a><i class="fa fa-pencil"></i><b>New Post</b></a></li>
+					<li><a><i class="fa fa-cog"></i><b>Settings</b></a></li>
+					<li><a><i class="fa fa-star"></i><b>Starred</b></a></li>
+					<li><a><i class="fa fa-power-off"></i><b>Logout</b></a></li>
+				</ul>
+				<section>
+					<h2>Slide Top Left</h2>
+					<img src="../img/mb3.png"/>
+				</section>
+			</li>
+			
+		</ul>
+		</div>
+	</div>
+	<div class="content-cell">
+		<div class="blog-header" style="background-image: url(../img/blog1.jpg);">
+			<h3>Blog font style test</h3>
+		</div>
+		<div class="blog-footer">
+			<img class="portrait" src="../img/xiaobooo.bmp">
+			<p class="myname">XiaoBooo</p>
+			<p class="mydate">4月26,2018</p>
+			<p class="mylabel">Java</p>
+		</div>
+		<h3 class="ctitle">Demo</h3>
+		<p>华为技术有限公司是一家生产销售通信设备的民营通信科技公司，于1987年正式注册成立，总部位于中国深圳市龙岗区坂田华为基地。 [1] 
+		华为是全球领先的信息与通信技术（ICT）解决方案供应商，专注于ICT领域，坚持稳健经营、持续创新、开放合作，在电信运营商、企业、终端和云计算等领域构筑了端到端的解决方案优势，为运营商客户、企业客户和消费者提供有竞争力的ICT解决方案、产品和服务，并致力于使能未来信息社会、构建更美好的全联接世界。2013年，华为首超全球第一大电信设备商爱立信，排名《财富》世界500强第315位。
+		截至2016年底，华为有17万多名员工，华为的产品和解决方案已经应用于全球170多个国家，服务全球运营商50强中的45家及全球1/3的人口。
+		2016年8月，全国工商联发布“2016中国民营企业500强”榜单，华为以3950.09亿元的年营业收入成为500强榜首。 [2]  8月，华为在"2016中国企业500强"中排名第27位。 [3] 
+		2017年6月6日，《2017年BrandZ最具价值全球品牌100强》公布，华为名列第49位。 [4] 
+		2017年6月30日，华为技术有限公司荣获中国商标金奖的马德里商标国际注册特别奖。 [5] 
+		美国《财富》杂志发布了最新一期的世界500强名单 。华为以785.108亿美元营业收入首次打入前百强，排名第83位，较上一年的第129位提升46位。 [6]  2018年2月23日，沃达丰和华为完成首次5G通话测试。 [7] 
+		2018年2月27日，Fraunhofer IIS与华为签署了一项MPEG-4音频专利组合的全球许可协议</p>
+	</div>
+</body>
+</html>
