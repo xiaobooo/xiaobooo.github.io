@@ -16,6 +16,14 @@
     padding: 0px;
     margin: 0px;
 }
+.main-content
+{
+    background-color: white;
+}
+img
+{
+    margin: 0 auto;
+}
 h3
 {
     margin: 15px;
@@ -26,8 +34,4 @@ p
     line-height: 38px;
     padding: 10px;
     margin: 10px;
-}
-.main-content
-{
-    background-color: white;
 }
