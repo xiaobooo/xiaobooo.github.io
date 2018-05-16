@@ -11,11 +11,18 @@
         z-index:9103;
         position: relative;
 }
-.ctitle
+h3
 {
     margin: 15px;
+    padding: 5px;
 }
 p
 {
     line-height: 38px;
+    padding: 10px;
+    margin: 10px;
+}
+.main-content
+{
+    background-color: white;
 }
