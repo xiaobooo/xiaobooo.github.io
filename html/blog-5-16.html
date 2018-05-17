@@ -20,7 +20,77 @@
 			<p class="mylabel">前端</p>
 		</div>
 		<div class="main-content">
-			<h3 class="ctitle">内容正在编辑.......</h3>
+			<h3 class="ctitle">一、HTML篇</h3>
+			<p>HTML主体代码，利用16个div形成16个方格区域</p>
+			<pre class="pre-scrollable">
+&lt;div id=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-0-0&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-0-1&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-0-2&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-0-3&quot;&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-0&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-1&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-2&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-1-3&quot;&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-0&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-1&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-2&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-2-3&quot;&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-0&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-1&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-2&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;grid-cell&quot; id=&quot;grid-cell-3-3&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;							
+			</pre>
+			<p>利用JiaThis 实现页面的分享，网上现成的插件，直接调用即可</p>
+			<pre>
+&lt;div class=&quot;jiathis_style_32x32&quot;&gt;
+	&lt;a class=&quot;jiathis_button_qzone&quot;&gt;&lt;/a&gt;
+	&lt;a class=&quot;jiathis_button_tsina&quot;&gt;&lt;/a&gt;
+	&lt;a class=&quot;jiathis_button_cqq&quot;&gt;&lt;/a&gt;
+	&lt;a class=&quot;jiathis_button_weixin&quot;&gt;&lt;/a&gt;
+	&lt;a class=&quot;jiathis_button_renren&quot;&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://www.jiathis.com/share&quot; class=&quot;jiathis jiathis_txt jtico jtico_jiathis&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://v3.jiathis.com/code/jia.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+			</pre>
+			
+			<h3 class="ctitle">二、CSS篇</h3>
+			<p>1、CSS文件主要包括两个，cssReset.css 和 style.css，前者为清除浏览器的默认样式，后者为自己所写的页面样式</p>
+			<p>2、CSS reset 可以清除浏览器默认样式，使得项目在所有浏览器上都能得到想要的样式，但不可滥用CSS reset，冗余的CSS reset 是在是浪费代码，浪费性能，所以我们应该根据需要进行 reset，不能完全照搬，此处我采用的是Yahoo的方案，并只选取了所需要的，链接：https://github.com/yui/yui3/tree/master/src/cssreset</p>
+			<pre >
+body, h1, h2, h3, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font-family: inherit;font-size: inherit;font-weight: inherit; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em, strong,b,u,i { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+			</pre>
+
+			<pre class="pre-scrollable">
+			</pre>
+
+			<pre class="pre-scrollable">
+			</pre>
+
+			<pre class="pre-scrollable">
+			</pre>
+
+			<pre class="pre-scrollable">
+			</pre>
+
 		</div>
 	</div>
 </body>
