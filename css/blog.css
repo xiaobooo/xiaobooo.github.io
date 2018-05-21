@@ -14,7 +14,7 @@ body
         min-height:300px;
         max-height:900px;
 
-        z-index:9103;
+        z-index:1;
         position: relative;
 }
 

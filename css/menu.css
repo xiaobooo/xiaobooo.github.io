@@ -8,6 +8,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 2;
 }
 #menu #ensconce {
   /*隐藏菜单样式*/
