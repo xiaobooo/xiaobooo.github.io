@@ -1,173 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>XiaoBooo's Blog</title>
-	<script src="js/adapter.js"></script> <!--rem适配js-->
-	
-    <link rel="stylesheet" href="css/base.css"> <!--初始化文件-->
-    <link rel="stylesheet" href="css/menu.css"> <!--主样式-->
-	<link rel="icon" type="image/x-icon" href="img/title.ico">
-	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css"> 
-	<link rel="stylesheet" type="text/css" href="css/blog.css">
+    <meta charset=utf-8" />
+    <!--手机屏幕兼容预处理-->
+    <meta name="viewport" content="width-device,user-scalable=no">
+    <title>My Web Game-2048</title>
+    <link rel="stylesheet" type ="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/cssReset.css"/>
 </head>
-<body>
+<body background="img/img1.jpg" width:100%; height:100%;>
 
-	<!-- ==================================Bolg zero ============================================ -->
-	<div class="blog-cell" onclick="window.open('html/blog-3-16.html')">
-		<div class="blog-header" style="background-image: url(img/blog0.jpg);">
-			<h3>Xiaobooo面试之蚂蚁金服前端</h3>
-		</div>
-		<div class="blog-footer">
-			<img class="portrait" src="img/xiaobooo.bmp">
-			<p class="myname">XiaoBooo</p>
-			<p class="mydate">3月16,2018</p>
-			<p class="mylabel">前端</p>
-		</div>
-	</div>
-		<!-- ==================================Bolg one ============================================ -->
-	<div class="blog-cell" onclick="window.open('html/blog-4-26.html')">
-		<div class="blog-header" style="background-image: url(img/blog1.jpg);">
-			<h3>Xiaobooo面试之进程和线程的区别</h3>
-		</div>
-		<div class="blog-footer">
-			<img class="portrait" src="img/xiaobooo.bmp">
-			<p class="myname">XiaoBooo</p>
-			<p class="mydate">4月26,2018</p>
-			<p class="mylabel">面试</p>
-		</div>
-	</div>
-
-		<!-- ==================================Bolg two ============================================ -->
-	<div class="blog-cell" onclick="window.open('html/blog-5-07.html')">
-		<div class="blog-header" style="background-image: url(img/blog2.1.jpg);">
-			<h3>Xiaobooo面试之链表</h3>
-		</div>
-		<div class="blog-footer">
-			<img class="portrait" src="img/xiaobooo.bmp">
-			<p class="myname">XiaoBooo</p>
-			<p class="mydate">5月07,2018</p>
-			<p class="mylabel">面试</p>
-		</div>
-	</div>
-
-	<!-- ==================================Bolg Three ============================================ -->
-	<div class="blog-cell" onclick="window.open('html/blog-5-16.html')">
-		<div class="blog-header" style="background-image: url(img/blog3.jpg);">
-			<h3>Xiaobooo's 2048 Web版项目解析（HTML+CSS篇）</h3>
-		</div>
-		<div class="blog-footer">
-			<img class="portrait" src="img/xiaobooo.bmp">
-			<p class="myname">XiaoBooo</p>
-			<p class="mydate">5月16,2018</p>
-			<p class="mylabel">前端</p>
-		</div>
-	</div>
-
-	<!-- ==================================Bolg Three ============================================ -->
-	<div class="blog-cell" onclick="window.open('html/blog-5-16.html')">
-		<div class="blog-header" style="background-image: url(img/blog3-2.jpg);">
-			<h3>Xiaobooo's 2048 Web版项目解析（JavaScript篇）</h3>
-		</div>
-		<div class="blog-footer">
-			<img class="portrait" src="img/xiaobooo.bmp">
-			<p class="myname">XiaoBooo</p>
-			<p class="mydate">x月xx,2018</p>
-			<p class="mylabel">前端</p>
-		</div>
-	</div>
-
-	<!-- ==================================Bolg demo ============================================ -->
-	<div class="blog-cell" onclick="window.open('html/blog-demo.html')">
-		<div class="blog-header" style="background-image: url(img/demo.jpg);">
-			<h3>Blog font style test</h3>
-		</div>
-		<div class="blog-footer">
-			<img class="portrait" src="img/xiaobooo.bmp">
-			<p class="myname">XiaoBooo</p>
-			<p class="mydate">4月26,2018</p>
-			<p class="mylabel">Java</p>
-		</div>
-	</div>
-
-	<div id="menu">
-    <!--隐藏菜单-->
-    <div id="ensconce" style="background-image: url(img/xiaobooo.png);">
-        <h2>
-            <img src="img/show.png" alt="">
-        </h2>
+<div class="header">
+	<button class="btn" type="button">注册</button> 
+	<button class="btn" type="button"><a href="login.html">登录</a></button>
+    <div id="button-cell">
+		<div class="button-cell">2048</div>
+		<div class="button-cell">4*4</div>
     </div>
-
-	<!--显示菜单-->
-    <div id="open">
-        <div class="navH">
-            <p>@ XiaoBooo's Blog[the menu is testing]</p>
-            <span><img class="obscure"src="img/obscure.png"></span>
-        </div>
-        <div class="navBox">
-            <ul>
-                <li>
-                    <h2 class="obtain">北京景点<i></i></h2>
-                    <div class="secondary">
-                        <h3>故宫</h3>
-                        <h3>十三陵</h3>
-                        <h3>圆明园</h3>
-                        <h3>长城</h3>
-                        <h3>雍和宫</h3>
-                        <h3>天坛公园</h3>
-                    </div>
-                </li>
-                <li>
-                    <h2 class="obtain">南京景点<i></i></h2>
-                    <div class="secondary">
-                        <h3>栖霞寺</h3>
-                        <h3>夫子庙</h3>
-                        <h3>海底世界</h3>
-                        <h3>中山陵</h3>
-                        <h3>乌衣巷</h3>
-                        <h3>音乐台</h3>
-                    </div>
-                </li>
-                <li>
-                    <h2 class="obtain">上海景点<i></i></h2>
-                    <div class="secondary">
-                        <h3>东方明珠</h3>
-                        <h3>外滩</h3>
-                        <h3>豫园</h3>
-                        <h3>文庙</h3>
-                        <h3>世博园</h3>
-                        <h3>田子坊</h3>
-                    </div>
-                </li>
-                <li>
-                    <h2 class="obtain">深圳景点<i></i></h2>
-                    <div class="secondary">
-                        <h3>华侨城</h3>
-                        <h3>观澜湖</h3>
-                        <h3>世界之窗</h3>
-                        <h3>东门老街</h3>
-                        <h3>七娘山</h3>
-                        <h3>光明农场</h3>
-                    </div>
-                </li>
-                <li>
-                    <h2 class="obtain">广州景点<i></i></h2>
-                    <div class="secondary">
-                        <h3>白云山</h3>
-                        <h3>长隆</h3>
-                        <h3>黄花岗公园</h3>
-                        <h3>中山纪念堂</h3>
-                        <h3>华南植物园</h3>
-                        <h3>南沙湿地公园</h3>
-                    </div>
-                </li>
-            </ul>
-        </div>
+    <a href="javascript:newgame();" id="newgame"  onclick="newgame()">重  新  开  始</a>
+    <div id="score-cell">
+		<div class="score-cell">分数</div>
+		<div class="button-cell"><span id="score">0</span></div>      
+		<!--  突显分数字体此处class并未出错 -->
     </div>
+    <div id="hscore-cell">
+		<div class="hscore-cell">最高分数</div>
+		<div class="button-cell"><span id="score">0</span></div>
+    </div>
+    <input class="help" type="button" name="" onclick="help()" />
+    <input class="music" type="button" name="" onclick="openMusic()" />
+<!--     <input class="share" type="button" name="" onclick="share()" /> -->
+</div>
 
-<script src="js/menu.js"></script> <!--控制js-->	
+<div id="grid-container">
+    <div class="grid-cell" id="grid-cell-0-0"></div>
+    <div class="grid-cell" id="grid-cell-0-1"></div>
+    <div class="grid-cell" id="grid-cell-0-2"></div>
+    <div class="grid-cell" id="grid-cell-0-3"></div>
+
+    <div class="grid-cell" id="grid-cell-1-0"></div>
+    <div class="grid-cell" id="grid-cell-1-1"></div>
+    <div class="grid-cell" id="grid-cell-1-2"></div>
+    <div class="grid-cell" id="grid-cell-1-3"></div>
+
+    <div class="grid-cell" id="grid-cell-2-0"></div>
+    <div class="grid-cell" id="grid-cell-2-1"></div>
+    <div class="grid-cell" id="grid-cell-2-2"></div>
+    <div class="grid-cell" id="grid-cell-2-3"></div>
+
+    <div class="grid-cell" id="grid-cell-3-0"></div>
+    <div class="grid-cell" id="grid-cell-3-1"></div>
+    <div class="grid-cell" id="grid-cell-3-2"></div>
+    <div class="grid-cell" id="grid-cell-3-3"></div>
+</div>
+<!-- 分享标签 -->
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_cqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/support.js"></script>
+<script type="text/javascript" src="js/show.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
